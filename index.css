@@ -1,0 +1,117 @@
+
+body {
+    color: white;
+    background-color: #171f29;
+}
+
+.main {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18232d;
+}
+
+.container {
+  min-width: 400px;
+  min-height: 600px;
+  background-color: #1F2937;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-left: 5em;
+  padding-top: 10em;
+  padding-right: 5em;
+}
+
+.before-line {
+    text-align: left;
+    font-size: 16px;
+}
+
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    margin: 0;
+}
+
+#green-text {
+    color: #4ADF85;
+}
+
+#small-text {
+    font-size: 1.9em;
+    margin-bottom: 1.6em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    background-color: #0DB980;
+    width: 12em;
+    color: white;
+    border: none;
+    padding: 1em 1em;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: width 0.8s;
+}
+
+button img {
+    width: 10px;
+    display: none;
+}
+
+button:hover img {
+    display: block;  
+}
+
+button:hover {
+    width: 14em;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+
+#line {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #2F3E52;
+    margin: 0;
+}
+
+.after-line {
+    font-size: 16px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    
+}
+
+.inside-div {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-evenly;
+}
+
+.pass {
+    background-color: #273549;
+    width: 25%;
+    padding: 0.8em 3em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #55F991;
+    text-align: center;
+}
+
+.pass:hover {
+    background-color: #55F991;
+    color: #273549;
+}
