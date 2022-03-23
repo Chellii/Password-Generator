@@ -95,3 +95,11 @@ function generate_password()
         elem.textContent = password
     }
 }
+
+function copy_password(pass)
+{
+    let elem = document.getElementById(pass).textContent
+    navigator.clipboard.writeText(elem);
+    document.execCommand("copy");
+    
+}

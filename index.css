@@ -61,7 +61,7 @@ button {
 }
 
 button img {
-    width: 10px;
+    width: 0.6em;
     display: none;
 }
 
@@ -115,3 +115,46 @@ button:hover {
     background-color: #b8fed2;
     color: #29384d;
 }
+
+
+@media only screen and (max-width:800px) {
+    .container {
+        min-height: 200px;
+        min-width: 100px;
+        height: 60%;
+      }
+    .before-line {
+        text-align: left;
+        font-size: 6px;
+    }
+    .after-line {
+        font-size: 10px;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 0;
+        
+    }
+    .inside-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+        justify-content: space-around;
+        margin: 0;
+    }
+    .pass {
+        width: 10em;
+    }
+    .main {
+        font-size: 12px;
+    }
+    button {
+        width: 12em;
+        padding: 1em 1em;
+        border-radius: 0.3em;
+        font-size: 1.8em;
+        transition: width 0.8s;
+    }
+} 
